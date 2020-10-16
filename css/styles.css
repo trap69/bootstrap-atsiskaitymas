@@ -56,7 +56,28 @@ hr {
 	transform: translateY(-50%);
 }
 #slogan {
+	max-width: 90%;
 	
-		justify-content: center;
 	padding-top: 5%;
-	}
+}
+#gray-container {
+	max-width: 90%;
+	background-color: gray;
+}
+
+#white-container-fluid {
+	background-color: white;
+}
+#gray-container-fluid {
+	background-color: gray;
+}
+
+#mygtukas {
+
+	max-width: 5%;
+	max-height: 3%;
+}
+.img-fluid {
+  max-width: 10px;
+  height: auto;
+}
