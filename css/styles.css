@@ -81,23 +81,3 @@ hr {
   max-width: 10px;
   height: auto;
 }
-.gutter_wrapper {
-}
-.img-1 {
-	max-height: 50px;
- background: #D6D65B; background: hsl(60, 60%, 60%); }
-.img-2 { background: #5BD6AD; background: hsl(160, 60%, 60%); }
-.img-3 { background: #5B99D6; background: hsl(210, 60%, 60%); }
-.img-4 { background: #D65BC1; background: hsl(310, 60%, 60%); }
-.img-5 { background: #70D65B; background: hsl(110, 60%, 60%); }
-.img-6 { background: #D65B5B; background: hsl(0, 60%, 60%); }
-.img-7 { background: #D6995B; background: hsl(30, 60%, 60%); }
-.img-8 { background: #705BD6; background: hsl(250, 60%, 60%); }
-{
-  "container": "#mouse-drag",
-  "items": 3,
-  "mouseDrag": true,
-  "slideBy": "page",
-  "swipeAngle": false,
-  "speed": 400
-}
