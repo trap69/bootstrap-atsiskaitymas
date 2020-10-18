@@ -49,8 +49,15 @@ hr {
     justify-content: center;
     align-items: center;
 
-}
 
+}
+.carousel-indicators li {
+	color: #506a85;
+	opacity: 1;
+}
+.active i {
+	color: #00bc9c !important;
+}
 .carousel-indicators li {
     width: 1%;
     height: 1%;
@@ -83,10 +90,14 @@ hr {
 }
 #slogan {
 	max-width: 90%;
-	
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
+#slogan,h1,p,h3,i {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
 #latest-works {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -123,4 +134,23 @@ hr {
 }
 .lead {
 	margin-bottom: 3%;
+}
+
+#slogan2 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	max-width: 90%;
+	background-color: white;
+	font-size: 44px; font-family: "Lato"; color: rgb(80, 106, 133); font-weight: bold; line-height: 1.227; text-align: center;
+}
+#slogan2 p {
+	font-weight: none;
+	font-size: 1rem;
+}
+.btn {
+	color: white;
+}
+#white-container-fluid i {
+	font-size: 5rem;
+	color: #00bc9c;
 }

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Owl CSS-->
   <link href="owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 	<!-- custom CSS-->
 	<link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"/>
@@ -30,6 +31,7 @@
       .owl-theme .owl-nav [class*="owl-"]:hover {
         background-color: transparent;
       }
+
   </style>
 
 </head>
@@ -102,15 +104,12 @@
         <a class="nav-link" href="#">Contact</a>
         </li>
     </ul>
-        </div>
-    <div class="collapse navbar-collapse order-2 order-lg-2" id="navbarNavDropdown">
-    </div>
-    <form class="form-inline order-3 my-2 my-lg-0">
+  </div>
+  <form class="form-inline order-3 my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="">
       <button class="btn btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-    </form>
-  </div>
-</nav>
+  </form>
+  </nav>
 </div>
 </header>
 </div>
@@ -166,7 +165,7 @@
   				</a>      
         </div>
 		</div>
-      <ul id="rutuliukai" class="carousel slide carousel-indicators ">
+      <ul id="rutuliukai" class="carousel slide carousel-indicators " style="color: #506a85">
         <li data-target="#slides" data-slide-to="0" class="active"><i class="fas fa-circle"></i></li>
         <li data-target="#slides" data-slide-to="1"><i class="fas fa-circle"></i></li>
         <li data-target="#slides" data-slide-to="2"><i class="fas fa-circle"></i></li>
@@ -183,37 +182,32 @@
       <h1 class="">Beatiful. Clean. Responsive.</h1>
 
       <div class="container">
-        <p class="">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <p class="">REEN is a high-quality solution for those who want a beautiful website in no time.<br>It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it<br> doesn't matter. Your content will always looks its absolute best.</p>
       </div>
     </div>
   </div>
-<div id="daikciukai" class="container ">
+<div id="daikciukai" class="container">
   <div class="row col-12 justify-content-center text-center ">
-    <div class="d-flex">
-    <div class="col-1">
+    <div class="col">
     <i class="far fa-heart"></i>
     </div>
-    <div class="col-3">
-        <h3>HTML</h3>
-        <p>Somethingsomething</p>
+    <div class="media-body">
+        <h3 class="mt-0">Passion</h3>
+        <p class="mb-0">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
     </div>
-    </div>
-    <div class="d-flex">
-    <div class="col-1">
+    <div class="col">
     <i class="far fa-lightbulb"></i>
     </div>
-    <div class="col-3">
-        <h3>HTML</h3>
-        <p>Somethingsomething</p>
+    <div class="media-body">
+        <h3 class="mt-0">Creativity</h3>
+        <p class="mb-0">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
     </div>
-    </div>
-    <div class="d-flex">
-    <div class="col-1">
+    <div class="col">
     <i class="far fa-star"></i>
     </div>
-    <div class="col-3">
-        <h3>HTML</h3>
-        <p>Somethingsomething</p>
+    <div class="media-body">
+        <h3 class="mt-0">Quality</h3>
+        <p lass="mb-0">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
     </div>
     </div>
   </div>
@@ -262,12 +256,25 @@
 </div>
 </div>
 </div>
+<div id="white-container-fluid2" class="container-fluid" style="background-color: white">
+<div id="slogan2" class="container">
+  <div class=" text-center ">
+    <div class="d-block text-center ">
+      <h1 class="">Beatiful. Clean. Responsive.</h1>
+
+      <div class="container">
+        <p class="">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+      <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg" style="background-color: #00bc9c"> GET STARTED NOW</button>
+    </div>
+  </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
+
+
+
+
+
 <footer>
   <p>Footer</p>
 </footer>
@@ -282,9 +289,11 @@
       <script src="owlcarousel/owl.carousel.min.js"></script>
       <script>
        $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
+    loop: true,
+    margin: 3,
+    nav: true,
+    dots: true,
+    pagination: true,
     responsive:{
         0:{
             items:1
@@ -295,7 +304,7 @@
         1000:{
             items:4
         }
-    }
+}
 })
       </script>
 </body>
