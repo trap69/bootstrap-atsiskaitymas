@@ -4,11 +4,11 @@ html {
 }
 .container-fluid {
 	max-width: 100%;
-	background-color: tomato;
+	background-color: white;
 }
 .navbar { 
 	top: center;
-	background-color: aqua;
+	background-color: white;
 }
 #header {
 	max-width: 90%;
@@ -24,9 +24,9 @@ html {
 	width: 100%;
 	padding-right: 0;
 	padding-left: 0;
-
-
-
+}
+#search-icon {
+	color: #506a85;
 }
 #slides {
 	}
