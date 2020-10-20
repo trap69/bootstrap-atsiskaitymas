@@ -79,7 +79,10 @@ hr {
 }
 
 #carousel-item-inner-2 {
-	right:50%;
+
+}
+#carousel-item-button-3 {
+	text-align: left;
 }
 .carousel-indicators li {
 	color: #506a85;
@@ -133,6 +136,33 @@ hr {
 #latest-works p {
 	font-size: 20px;
 }
+
+img:hover {
+	opacity: 0;
+}
+.card:hover {
+	opacity: 1;
+	background-color: white;
+	}
+.card p:hover {
+	opacity: 1;
+	color: red;
+
+}
+#on-hover-color img:hover {
+	  opacity: 0.9;
+	  background-color: #008CBA;
+}
+.card p:hover {
+	opacity: 1;
+	color: black;
+}
+img {
+
+}
+
+
+
 .card-body {
 	padding: 0;
 	border: 	none;
