@@ -1,24 +1,67 @@
 html {
 	font-family: 'Lato', sans-serif;
 	color:  #506a85;
+	width: 100%;
+	padding: 0;
+
 }
 
 .container-fluid {
 	max-width: 100%;
 	background-color: white;
+	/*	padding: 0 !important; atsirad paddingas del to sita pridedu */
 }
 a,h2,h3,h4,h5 {
 
 color:  #506a85;
 
 }
-p {
+#button-carousel {	
+text-align: center;
+	font-weight: bold;
+	font-size: 0.7rem;
+	max-height: 3rem;
+	max-width: 10rem;}
+.carousel-item-inner-1 > h1,
+#carousel-item-inner-2 > h1,
+#carousel-item-inner-3 > h1,
+#carousel-item-inner-4 > h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+#carousel-item-inner-3	 > h1 {
+	background-color: #506a85;
+}
+#carousel-item-inner-3	 > p {
+	color: #506a85;
+}
+#carousel-item-inner-4	 > h1 {
+background-color: #506a85;
+}
+#carousel-item-inner-4	 > p {
+	color: white;
+}
+#carousel-item-inner-1 > p{
+	font-size:  0.875rem;
 	color:#a3b1bf;
+}
+#carousel-item-inner-2 > p{
+	font-size:  0.875rem;
+	color: white;
 }
 .navbar { 
 	top: center;
 	background-color: white;
 	color:  #506a85;
+}
+.navbar-toggler {
+
+	color: red !important;
+    background-color: #a3b1bf;
+}
+.navbar-toggler-icon {
+	color: black;
+	background-size: black;
 }
 #header {
 	max-width: 90%;
@@ -32,8 +75,7 @@ p {
 }
 #karusele {
 	width: 100%;
-	padding-right: 0;
-	padding-left: 0;
+
 	color:  #506a85;
 
 
@@ -49,8 +91,8 @@ p {
 .img-fluid 
 { max-width: 100%; and height: auto; 
 }
-footer {
-	background-color: black;
+#footer-ending, footer {
+	background-color: #283645;
 }
 hr {
 	color: red;
@@ -69,13 +111,9 @@ hr {
 	transform: translateY(-50%);
 }	
 #carousel-item-inner-1 {
-	background-color: red;
+
 	padding-bottom: 3%;
 
-}
-
-#carousel-item-inner-1 {
-	background-color: red;
 }
 
 #carousel-item-inner-2 {
@@ -97,7 +135,7 @@ hr {
 
 }
 .carousel-indicators {
-    bottom: -5%;
+    bottom: -8%;
     left: 30%;
 }	
 
@@ -137,32 +175,13 @@ hr {
 	font-size: 20px;
 }
 
-img:hover {
-	opacity: 0;
+.card-img-top {
+	background-color: #00bc9c;
 }
-.card:hover {
-	opacity: 1;
-	background-color: white;
-	}
-.card p:hover {
-	opacity: 1;
-	color: red;
+.card-img-top img:hover {
+	opacity: 0.3;
 
 }
-#on-hover-color img:hover {
-	  opacity: 0.9;
-	  background-color: #008CBA;
-}
-.card p:hover {
-	opacity: 1;
-	color: black;
-}
-img {
-
-}
-
-
-
 .card-body {
 	padding: 0;
 	border: 	none;
@@ -173,15 +192,20 @@ img {
 #card-bottom {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+		opacity: 1;
+		background-color: white !important;
 }
 
 #white-container-fluid {
+	max-width: 90%;
 	background-color: white;
 }
 #latest-works-fluid {
 	background-color: #f2f5f7;
 }
-
+#white-container-fluid2 {
+	max-width: 100%;
+}
 #mygtukas {
 
 	max-width: 5%;
@@ -208,4 +232,128 @@ img {
 #white-container-fluid i {
 	font-size: 5rem;
 	color: #00bc9c;
+}
+
+.card-body {
+	background-color: #00bc9c;
+	padding: 0;
+	border: 	none;
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+#card-bottom {
+		opacity: 1;
+		background-color: white !important;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+}
+
+#white-container-fluid {
+	background-color: white;
+}
+.card:hover {
+
+
+transition: all .3s ease-in-out;
+}
+
+.card img:hover {
+	opacity: 0.3;
+
+}
+.card-body:hover {
+	color: #00bc9c !important;
+	background-color:  #00bc9c;
+
+}
+.card-body h7 {
+	font-size: 2rem;
+}
+.card-body p {
+	font-size: 1.4rem;
+}
+#footer-color {
+	width: 100%;
+	background-color: #2f4052;
+}
+#footer-starting {
+	color: #a3b1bf;
+
+	padding-top: 3rem;
+	background-color: #2f4052;
+	max-width: 90%;	
+	padding-bottom: 2rem;
+}
+h5 {	
+	font-weight: bold;
+	color: white;
+	margin-top: 1.5rem;
+	margin-bottom:1.5rem;
+	font-size: 1rem;
+}
+p {
+	color: #828e99;
+	font-size: 0.875rem;
+}
+a {color: #828e99;
+	font-weight: bold;
+	font-size:1rem;
+}
+#footer-starting > div > div:nth-child(1) > img {
+		padding-bottom:1.5rem;
+}
+#footer-ending {
+	padding-top: 2rem;
+	max-width: 90%;
+	font-size: 1.25rem; 
+}
+footer {
+		height: 6.3rem;
+}
+#owl-container {
+	max-width: 100%;
+}
+#work-showcase {
+	padding-left: 0.25rem;
+	padding-bottom: 0.25rem;
+	max-width: 7.813rem;
+	max-height: 5.313rem;
+}
+.input-group>.form-control {
+	color: #828e99;
+	background-color: rgba(78,92,108,1);
+	border-color: rgba(78,92,108,1);
+	border-width: 0.45rem;
+	padding-right: 3rem;
+}
+#email-button {
+	right: 3%;
+	border: solid;
+	border-width: 0.25rem;
+	padding: 0.5rem;
+	border-color: rgba(78,92,108,1);
+	border-radius: 2rem 2rem 2rem 2rem;
+	font-size: 0.7rem;
+	max-height: 3rem;
+	max-width: 6rem;
+}
+.input-group {
+	background-color: rgba(78,92,108,1);
+}
+a:hover, .navbar:hover {
+	opacity: 0.9;
+	color:  #00bc9c;
+}
+.card-img-top {
+		background-color: #00bc9c;
+}
+.card-img-top:hover, #logo:hover {
+	opacity: 0.3;
+	background-color: #00bc9c;
+}
+#owl-container > div > div.owl-stage-outer > div > div:nth-child(8) > div > img {
+	background:  #00bc9c;
+	opacity: 1
 }

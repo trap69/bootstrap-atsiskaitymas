@@ -14,22 +14,14 @@
 	<link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"/>
   <style >
-      .owl-prev {
-        left: -30px;
-      }
-      .owl-next {
-        right: -30px;
-      }
-      .owl-prev, .owl-next {
-        position: absolute;
-        top: 30%;
-      }
+
       .owl-prev span, .owl-next span {
         font-size: 60px;
         color: black;
       }
+      
       .owl-theme .owl-nav [class*="owl-"]:hover {
-        background-color: transparent;
+        background-color: #00bc9c;
       }
        
   </style>
@@ -49,9 +41,6 @@
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class=" "></span><i class="fab fa-google-plus-g"></i></a></li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-linkedin"></span></a></li>
         </ul>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-            <span class="navbar-toggler-icon"></span>
-        </button>
     </div>
     <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
     </div>
@@ -63,7 +52,7 @@
     	<img id="logo" src="img/reen-logo.png"  alt="Logo">
   		</a>
  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -118,42 +107,43 @@
 			<div class="carousel-inner w-100">
 				  <div class="carousel-item active">
 					<img class="d-block " src="img/carousel-item1.png" name="slideshow_img">
-					<div id="carousel-item-inner-1" class="carousel-caption ">
-						<h1 class="display-2 text-center">MADE FOR DESIGNERS</h1>
+					<div id="carousel-item-inner-1" class="carousel-caption text-center">
+						<h1 class=" text-center">MADE FOR DESIGNERS</h1>
             <p class="text-center"> Crate your online portfolio in minutes with the professionally and lovingly designed REEN <br> website template. Costumize your site with versatile and easy to use features.</p>
-             <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg" style="background-color: #00bc9c"> GET STARTED NOW</button>
+             <button id="button-carousel" type="button" class="btn shadow-sm p-3 mb-5  rounded col-xs-9 col-xs-offset-0 col-sm-offset-3 col-sm-3 " style="background-color: #00bc9c"> GET STARTED NOW</button>
 					</div>
 					</div>
 					<div  class="carousel-item">
 					<img class="d-block " src="img/carousel-item2.png" name="slideshow_img">
 					<div id="carousel-item-inner-2" class="carousel-caption text-right" style="height: 200px;">
-						<h1 class="display-2 text-right">Fresh and <br> beatiful design</h1>
+						<h1 class=" text-right">Fresh and <br> beatiful design</h1>
               <p class="text-right"> Crate your online portfolio in minutes with the professionally and lovingly designed REEN <br> website template. Costumize your site with versatile and easy to use features.</p>
-              <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg right" style="background-color: #00bc9c"> GET STARTED NOW</button>
+              <button id="button-carousel" type="button" class="btn shadow-sm p-3 mb-5  rounded col-xs-9 col-xs-offset-0 col-sm-offset-3 col-sm-3  rounded  right" style="background-color: #00bc9c"> GET STARTED NOW</button>
 					</div>
 					</div>
 					<div class="carousel-item">
 					<img class="d-block " src="img/carousel-item3.png" name="slideshow_img">
 					<div id="carousel-item-inner-3" class="carousel-caption text-left">
-						<h1 class="display-2 text-uppercase">Clean and <br> reusable code</h1>
+						<h1 class=" p-2 mb-2 col-4 text-uppercase ">Clean and </h1><h1 class=" p-2 mb-2 col-5 text-uppercase "> reusable code</h1>
              <p class="text-left"> Crate your online portfolio in minutes with the professionally and lovingly designed REEN <br> website template. Costumize your site with versatile and easy to use features.</p>
-            <button id="carousel-item-button-3" type="button" class="btn shadow-sm p-3 mb-5 rounded btn-lg" style="background-color: #00bc9c"> GET STARTED NOW</button>
-
+            <button id="button-carousel" type="button" class="btn shadow-sm rounded col-xs-9 col-xs-offset-0 col-sm-offset-3 col-sm-3 rounded " style="background-color: #00bc9c"> GET STARTED NOW</button>
 				  </div>
         </div>
           <div class="carousel-item">
           <img class="d-block " src="img/carousel-item4.png" name="slideshow_img">
           <div id="carousel-item-inner-4" class="carousel-caption text-right">
-            <h1 class="display-2 text-right">4</h1>
+            <h1 class="d-flex align-items-end flex-column flex-wrap  p-2 text-uppercase">Just focus on your creativity</h1>
+
             <p class="text-right"> Crate your online portfolio in minutes with the professionally and lovingly designed REEN <br> website template. Costumize your site with versatile and easy to use features.</p>
-            <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg text-right" style="background-color: #00bc9c"> GET STARTED NOW</button>
+            <button id="button-carousel" type="button" class="btn shadow-sm rounded col-xs-9 col-xs-offset-0 col-sm-offset-3 col-sm-3 rounded" style="background-color: #00bc9c"> GET STARTED NOW</button>
           </div>
           </div>
           <div class="carousel-item">
           <img class="d-block " src="img/carousel-item5.png" name="slideshow_img">
           <div id="carousel-item-inner-5" class="carousel-caption">
-            <h1 class="display-2">5</h1>
-            <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg" style="background-color: #00bc9c"> GET STARTED NOW</button>
+            <h1 class="text-upercase text-center">Showcase <br> your content</h1>
+            <p>With REEN you have possibility to crate websites for various contents quickly and easily. Now it's up to you!</p>
+            <button type="button" class="btn shadow-sm p-3 mb-5  rounded " style="background-color: #00bc9c"> GET STARTED NOW</button>
           </div>
           </div>
         <div>
@@ -169,7 +159,7 @@
   				</a>      
         </div>
 		</div>
-      <ul id="rutuliukai" class="carousel slide carousel-indicators " style="color: #506a85">
+      <ul id="rutuliukai" class="carousel slide carousel-indicators absolute " style="color: #506a85">
         <li data-target="#slides" data-slide-to="0" class="active"><i class="fas fa-circle"></i></li>
         <li data-target="#slides" data-slide-to="1"><i class="fas fa-circle"></i></li>
         <li data-target="#slides" data-slide-to="2"><i class="fas fa-circle"></i></li>
@@ -222,7 +212,7 @@
 <div id="latest-works-fluid" class="container-fluid">
 <div id="latest-works" class="container">
   <div class="container text-center">
-    <h1 class="justify-content-center">Check our latest works</h1>
+    <h7 class="justify-content-center">Check our latest works</h1>
     <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
   </div>
   <div class="row">
@@ -230,10 +220,8 @@
     <div class="card text-center">
       <div class="card-body">
         <img class="card-img-top" src="img/card-item1.png" alt="Card image cap">
-
-        <span class=”green-overlay”></span>
         <div id="card-bottom">
-        <h2 class="card-title">Grand Motel gets an indentity brushup</h2>
+        <h7 class="card-title">Grand Motel gets an indentity brushup</h7>
         <p class="card-text text-muted">Identity</p>
         </div>
       </div>
@@ -244,7 +232,7 @@
       <div class="card-body">
         <img class="card-img-top" src="img/card-item2.png" alt="Card image cap">
         <div id="card-bottom">
-        <h2 class="card-title">Fresh branding for creative startup</h2>
+        <h7 class="card-title">Fresh branding for creative startup</h2>
         <p class="card-text text-muted">Identity</p>
         </div>
       </div>
@@ -252,14 +240,16 @@
   </div>
 </div>
 <br>
-<div class="container mt-5 mb-5">
+<div id="owl-container" class="container mt-5 mb-5">
   <div class="owl-carousel owl-theme">
   <div class="ml-2 mr-2" style="background-color: #ddd"><img class="card-img-top" src="img/slider-item1.png" alt="Card image cap"></div>
   <div class="ml-2 mr-2" style="background-color: #ddd"><img class="card-img-top" src="img/slider-item2.png" alt="Card image cap"></div>
   <div class="ml-2 mr-2" style="background-color: #ddd"><img class="card-img-top" src="img/slider-item3.png" alt="Card image cap"></div>
   <div class="ml-2 mr-2" style="background-color: #ddd"><img class="card-img-top" src="img/slider-item4.png" alt="Card image cap"></div>
   </div>
-</div>
+
+
+
 </div>
 </div>
 <div id="white-container-fluid2" class="container-fluid" style="background-color: white">
@@ -271,69 +261,73 @@
       <div class="container">
         <p class="">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
       </div>
-      <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg" style="background-color: #00bc9c"> GET STARTED NOW</button>
+      <button type="button" class="btn shadow-sm p-3 mb-5  rounded btn-lg" style="background-color: #00bc9c"> GET IN TOUCH</button>
     </div>
   </div>
 </div>
 </div>
-
-
-
-
-
-<footer>
-  <div class="container-fluid">
+<div id="footer-color" class="container-fluid">
+<div id="footer-starting" class="container-fluid">
     <div class="row">
       <div class="col-3">
         <h5 class="text-uppercase">Who we are</h5>
-        <img src="img/reen-logo.png">
-        <p></p>
-        <a href="#">More about us <i>rodykle</i></a>
+        <img src="img/reen-logo-white.png">
+        <p>
+Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.
+More about us</p>
+        <a href="#">More about us <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="col-3">
         <h5 class="text-uppercase">Latest works</h5>
           <div class="row">
-            <img src="img/reen-logo.png">
-            <img src="img/reen-logo.png">
+            <img id="work-showcase" src="img/card-item1.png">
+            <img id="work-showcase" src="img/latest-works2.png">
           </div>
           <div class="row">
-            <img src="img/reen-logo.png">
-            <img src="img/reen-logo.png">
+            <img id="work-showcase" src="img/slider-item2.png">
+            <img id="work-showcase" src="img/latest-works3.png">
           </div>
       </div>
       <div class="col-3">
-        <h5 class="text-uppercase">Who we are</h5>
-        <p>Dolerieurri</p>
-        <i></i><p>Adress</p>
-        <i></i><p>Phone</p>
-        <i></i><p>email</p>
+        <h5 class="text-uppercase">Get in touch</h5>
+        <p>Get in touch
+        Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.
+          </p>
+        <div class="row"><i class="fas fa-map-marker-alt fa-fw"></i><span class="ml-1"></span> <p>84 Street, City, State 24813</p></div>
+        <div class="row"><i class="fas fa-mobile-alt fa-fw"><span class="ml-1"></span> </i><p>+00 (123) 456 78 90</p></div>
+        <div class="row"><i class="far fa-envelope fa-fw"></i><span class="ml-2"><p>info@reen.com</p></div>
       </div>
       <div class="col-3">
-        <h5 class="text-uppercase">Who we are</h5>
-        <p>Dolerieurri</p>
+        <h5 class="text-uppercase">Free updates</h5>
+        <p>Conecus iure posae volor remped modis <br>aut lor volor accabora incim resto explabo.</p>
         <form>
-          <input type="email" name="">
-          <button>Suscribe</button>
+          <div class="input-group">
+            <input type="text" class="form-control row rounded" placeholder="Enter your Email adress">
+            <span class="input-group-btn">
+        <button id="email-button" type="button" class="btn shadow-sm rounded-lg " style="background-color: #00bc9c">SUBSCRIBE</button>
+            </span>
+          </div>
         </form>
       </div>
     </div>
-  </div>
-  <div class="container-fluid">
+</div>
+</div>
+<footer>  
+  <div id="footer-ending" class="container-fluid">
     <div class="row justify-content-between">
       <div class="col-2">
         <p>All right reserved</p>
       </div>
       <div class="col-6 text-right">
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Blog</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
+        <a href="#">Home ·</a>
+        <a href="#">Portfolio ·</a>
+        <a href="#">Blog ·</a>
+        <a href="#">About ·</a>
+        <a href="#">Services ·</a>
         <a href="#">Contact</a>
       </div>
     </div>
   </div>
-  <p>Footer</p>
 </footer>
 </div>
     	<!-- Optional JavaScript -->
@@ -346,22 +340,29 @@
       <script src="owlcarousel/owl.carousel.min.js"></script>
       <script>
        $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 3,
-    nav: true,
+
+    loop:true,
+    margin:10,
     dots: true,
-    pagination: true,
+    responsiveClass:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            nav:true
         },
         600:{
-            items:3
+            dots: true,
+            items:3,
+            nav:false
         },
         1000:{
-            items:4
+            dots: true,
+            dotsEach: true,
+            items:4,
+            nav:true,
+            loop:true
         }
-}
+    }
 })
       </script>
 </body>
